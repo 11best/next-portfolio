@@ -21,8 +21,12 @@ export default function ExperienceDetail(props: {
           )}
         </div>
         <div className="flex items-baseline">
-          <h3 className="text-lg font-semibold">{props.companyName}</h3>
-          <span className="ml-4 text-sm text-slate-400">{props.time}</span>
+          <p className="text-lg font-semibold text-orange-400">
+            {props.companyName}
+          </p>
+          <p className="ml-2 text-md font-semibold text-slate-400">
+            - {props.role}
+          </p>
         </div>
       </div>
       <div className="flex">
@@ -33,7 +37,10 @@ export default function ExperienceDetail(props: {
             <div className="bg-orange-200 w-[3px] h-full"></div>
           )}
         </div>
-        <p>{props.role}</p>
+        <div>
+          <span className="text-sm text-slate-400">{props.time}</span>
+          <p>develop the ui of product</p>
+        </div>
       </div>
       {props.end || (
         <div className="w-[100px] flex justify-center items-center">

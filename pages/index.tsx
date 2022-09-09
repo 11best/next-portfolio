@@ -7,9 +7,9 @@ const Home: NextPage = () => {
       <div className="max-w-3xl text-slate-600 font-ibm">
         <div id="section-description" className="tracking-widest">
           <h1 className="text-5xl">Asamaporn Bunmee</h1>
-          <h2 className="text-2xl text-slate-400">// Front-end developer</h2>
+          <h2 className="text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
           <p className="mt-20 tracking-wider indent-16">
-            Hey, my name is Charles Bruyerre and I use Sharlee as my nickname
+            HiHi, my name is Charles Bruyerre and I use Sharlee as my nickname
             across social medias. I’m a graphic designer, UX/UI designer &
             front-end web developer from France. I’m also passionate about pop
             music and make portraits and universes around what I listen to and
