@@ -1,3 +1,5 @@
+import IconPath from "./iconPath";
+
 export default function SocialMediaButton(props: {
   social: string;
   url: string;
@@ -9,10 +11,7 @@ export default function SocialMediaButton(props: {
       rel="noopener noreferrer"
       className="cursor-pointer"
     >
-      <span>
-        test
-        {/* <img src={`./images/icon_${props.social}.svg`} alt="" /> */}
-      </span>
+      <IconPath social={props.social} />
     </a>
   );
 }
