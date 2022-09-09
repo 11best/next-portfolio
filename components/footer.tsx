@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="font-ibm flex flex-col justify-center items-center">
       <p className="text-slate-600">asama_b@outlook.com</p>
-      <div className="mt-4 flex justify-center gap-4">
+      <div className="mt-4 flex justify-center items-center gap-4">
         <SocialMediaButton
           social="github"
           url="https://www.facebook.com/toukishiro/"

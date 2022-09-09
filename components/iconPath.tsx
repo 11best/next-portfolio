@@ -3,10 +3,10 @@ export default function IconPath(props: { social: string }) {
     case "github":
       return (
         <svg
-          className="text-slate-300 hover:text-orange-300"
+          className="text-slate-300 hover:text-orange-300 duration-500 hover:w-[45px] hover:h-[45px]"
           fill="currentColor"
-          height="24"
-          width="24"
+          height="37"
+          width="37"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -17,10 +17,10 @@ export default function IconPath(props: { social: string }) {
     case "linkedin":
       return (
         <svg
-          className="text-slate-300 hover:text-orange-300"
+          className="text-slate-300 hover:text-orange-300 duration-500 hover:w-[45px] hover:h-[45px]"
           fill="currentColor"
-          height="24"
-          width="24"
+          height="32"
+          width="32"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -31,10 +31,10 @@ export default function IconPath(props: { social: string }) {
     case "facebook":
       return (
         <svg
-          className="text-slate-300 hover:text-orange-300"
+          className="text-slate-300 hover:text-orange-300 duration-500 hover:w-[45px] hover:h-[45px]"
           fill="currentColor"
-          height="24"
-          width="24"
+          height="30"
+          width="30"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -45,10 +45,10 @@ export default function IconPath(props: { social: string }) {
     case "instagram":
       return (
         <svg
-          className="text-slate-300 hover:text-orange-300"
+          className="text-slate-300 hover:text-orange-300 duration-500 hover:w-[45px] hover:h-[45px]"
           fill="currentColor"
-          height="24"
-          width="24"
+          height="30"
+          width="30"
           viewBox="0 0 19.2 19.2"
           data-name="Instagram w/circle"
           xmlns="http://www.w3.org/2000/svg"
@@ -60,10 +60,10 @@ export default function IconPath(props: { social: string }) {
     case "discord":
       return (
         <svg
-          className="text-slate-300 hover:text-orange-300"
+          className="text-slate-300 hover:text-orange-300 duration-500 hover:w-[45px] hover:h-[45px]"
           fill="currentColor"
-          height="24"
-          width="24"
+          height="30"
+          width="30"
           viewBox="0 0 1024 1024"
           enable-background="new 0 0 1024 1024"
           xmlns="http://www.w3.org/2000/svg"
