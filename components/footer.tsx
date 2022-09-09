@@ -2,9 +2,10 @@ import SocialMediaButton from "./socialmediaButton";
 
 export default function Footer() {
   return (
-    <footer className="font-ibm flex flex-col justify-center items-center">
-      <p className="text-slate-600">asama_b@outlook.com</p>
-      <div className="mt-4 flex justify-center items-center gap-4">
+    <footer className="font-ibm flex flex-col justify-center items-center mt-8">
+      <div className="w-[500px] h-[2px] bg-orange-100"></div>
+      <p className="text-slate-400 mt-4">asama_b@outlook.com</p>
+      <div className="mt-4 flex gap-4">
         <SocialMediaButton social="github" url="https://github.com/11best" />
         <SocialMediaButton
           social="linkedin"
@@ -19,7 +20,7 @@ export default function Footer() {
           url="https://www.instagram.com/touki__/"
         />
       </div>
-      <p className="text-sm text-slate-400 mt-4">© 2022 Asamaporn Bunmee</p>
+      <p className="text-sm text-slate-300 mt-4">© 2022 Asamaporn Bunmee</p>
     </footer>
   );
 }
