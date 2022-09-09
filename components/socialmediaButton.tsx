@@ -7,6 +7,7 @@ export default function SocialMediaButton(props: {
   return (
     <a
       href={props.url}
+      title={props.social}
       target="_blank"
       rel="noopener noreferrer"
       className="cursor-pointer"
