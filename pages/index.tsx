@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import ExperienceDetail from "../components/experienceDetail";
 import ProjectCard from "../components/projectCard";
+import SkillLogo from "../components/skillLogo";
 
 const Home: NextPage = () => {
   return (
@@ -63,16 +64,22 @@ const Home: NextPage = () => {
         </div>
         <div id="section-skill" className="mt-16">
           <h2 className="font-bold text-2xl">All my skills</h2>
-          <div className="mt-4 flex gap-5 justify-around">
-            <div className="w-10 h-10 hover:w-12 hover:h-12 grayscale hover:grayscale-0 cursor-pointer duration-500 ease-out">
-              <img src="./images/logo-js.svg" alt="" />
+          <div className="mt-4 h-28 flex justify-center items-center">
+            <div className="flex gap-8 justify-around">
+              <SkillLogo
+                name="javascript"
+                url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              />
+              <SkillLogo
+                name="typescript"
+                url="https://www.typescriptlang.org/"
+              />
+              <SkillLogo name="elm" url="https://guide.elm-lang.org/" />
+              <SkillLogo name="angular" url="https://angular.io/" />
+              <SkillLogo name="astro" url="https://astro.build/" />
+              <SkillLogo name="react" url="https://reactjs.org/" />
+              <SkillLogo name="next" url="https://nextjs.org/" />
             </div>
-            {/* <img src="./images/logo-ts.svg" alt="" />
-            <img src="./images/logo-angular.svg" alt="" />
-            <img src="./images/logo-react.svg" alt="" />
-            <img src="./images/logo-astro.svg" alt="" />
-            <img src="./images/logo-next.svg" alt="" />
-            <img src="./images/logo-elm.svg" alt="" /> */}
           </div>
         </div>
       </div>
