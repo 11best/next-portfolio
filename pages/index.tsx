@@ -9,12 +9,10 @@ const Home: NextPage = () => {
           <h1 className="text-5xl">Asamaporn Bunmee</h1>
           <h2 className="text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
           <p className="mt-20 tracking-wider indent-16">
-            HiHi, my name is Charles Bruyerre and I use Sharlee as my nickname
-            across social medias. I’m a graphic designer, UX/UI designer &
-            front-end web developer from France. I’m also passionate about pop
-            music and make portraits and universes around what I listen to and
-            I’m always curious to learn more when it comes to new technologies
-            and creative coding.
+            HiHi, Welcome to My Portfolio! My name is Asamaporn Bunmee but you
+            can call me Best. yep! Best is my nickname. I’m a front-end
+            developer from Samut Prakan, Thailand. I love to learn about new
+            technologies. I'm the type that learns on my own by doing it.
           </p>
         </div>
         <div id="section-experience" className="mt-20">
@@ -25,16 +23,22 @@ const Home: NextPage = () => {
               companyName="Biggest Fan Productions"
               time="Jan 2022 - Now"
               role="Frontend developer"
-              detail="implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui "
+              detail="Implemented the Front-end things of website related to live streaming biggestfan.live, landing page of cryptoknights.games and NFT Market place monet.market"
             />
             <ExperienceDetail
               end
               companyName="Smart Finder"
               time="Jun 2021 - Dec 2021"
               role="Intern Frontend developer"
-              detail="Implementing hotel management website which consists of the room management page and kitchen ingredients management page with Angular"
+              detail="Implemented hotel management website which consists of the room management page and kitchen ingredients management page with Angular"
             />
           </div>
+        </div>
+        <div id="section-project" className="mt-20">
+          <h2 className="font-bold text-2xl">Projects</h2>
+        </div>
+        <div id="section-skill" className="mt-20">
+          <h2 className="font-bold text-2xl">All my skills</h2>
         </div>
       </div>
     </div>
