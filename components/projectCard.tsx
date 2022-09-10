@@ -23,10 +23,10 @@ export default function ProjectCard(props: {
           className="cursor-pointer text-orange-400 font-semibold text-lg group-hover:text-xl duration-500"
         >
           {props.name}
-          <div className="w-0 group-hover:w-full h-[2px] bg-orange-400 duration-700"></div>
+          <div className="w-[40px] group-hover:w-full h-[2px] bg-orange-400 duration-700"></div>
         </a>
       </div>
-      <p>{props.detail}</p>
+      <p className="mt-2">{props.detail}</p>
       <div className="mt-2 flex">
         {props.tools.map((tool) => (
           <ToolBadge name={tool} />
