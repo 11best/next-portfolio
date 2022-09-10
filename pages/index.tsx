@@ -10,16 +10,16 @@ const Home: NextPage = () => {
         <div id="section-description" className="tracking-widest">
           <h1 className="text-5xl">Asamaporn Bunmee</h1>
           <h2 className="text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
-          <p className="mt-20 tracking-wider indent-16">
+          <p className="mt-24 tracking-wider indent-16">
             HiHi, Welcome to My Portfolio! My name is Asamaporn Bunmee but you
             can call me Best. yep! Best is my nickname. I&apos;m a front-end
             developer from Samut Prakan, Thailand. I love to learn about new
             technologies. I&apos;m the type that learns on my own by doing it.
           </p>
         </div>
-        <div id="section-experience" className="mt-20">
+        <div id="section-experience" className="mt-32">
           <h2 className="font-bold text-2xl">Experience</h2>
-          <div>
+          <div className="mt-6">
             <ExperienceDetail
               start
               companyName="Biggest Fan Productions"
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div id="section-project" className="mt-20">
+        <div id="section-project" className="mt-36">
           <h2 className="font-bold text-2xl">Projects</h2>
           <div className="flex flex-col justify-center items-center">
             <ProjectCard
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div id="section-skill" className="mt-16">
+        <div id="section-skill" className="mt-28">
           <h2 className="font-bold text-2xl">All my skills</h2>
           <div className="mt-4 h-28 flex justify-center items-center">
             <div className="flex gap-8 justify-around">

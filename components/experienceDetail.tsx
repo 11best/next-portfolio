@@ -44,8 +44,8 @@ export default function ExperienceDetail(props: {
         </div>
       </div>
       {props.end || (
-        <div className="w-[100px] flex justify-center items-center">
-          <div className="bg-orange-200 w-[3px] h-6"></div>
+        <div className="w-[100px] h-[30px] flex justify-center items-center">
+          <div className="bg-orange-200 w-[3px] h-8"></div>
         </div>
       )}
     </>
