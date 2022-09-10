@@ -5,7 +5,7 @@ import ProjectCard from "../components/projectCard";
 const Home: NextPage = () => {
   return (
     <div className="pt-24 pb-10 flex flex-col justify-center items-center">
-      <div className="max-w-3xl text-slate-600 font-ibm">
+      <div className="max-w-md lg:max-w-3xl text-slate-600 font-ibm">
         <div id="section-description" className="tracking-widest">
           <h1 className="text-5xl">Asamaporn Bunmee</h1>
           <h2 className="text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
@@ -50,12 +50,30 @@ const Home: NextPage = () => {
               name="monet.market"
               img="./images/monet-img.jpg"
               detail="NFT Marketplace, which features NFT auctions that never existed before, such as Multi Auctions, Dutch Auctions, and Simple Fixed Price Sales."
-              tools={["Elm", "React", "Typescript", "Tailwindcss", "XState"]}
+              tools={[
+                "Elm",
+                "React",
+                "Typescript",
+                "Web3.js",
+                "Tailwindcss",
+                "XState",
+              ]}
             />
           </div>
         </div>
         <div id="section-skill" className="mt-16">
           <h2 className="font-bold text-2xl">All my skills</h2>
+          <div className="mt-4 flex gap-5 justify-around">
+            <div className="w-10 h-10 hover:w-12 hover:h-12 grayscale hover:grayscale-0 cursor-pointer duration-500 ease-out">
+              <img src="./images/logo-js.svg" alt="" />
+            </div>
+            {/* <img src="./images/logo-ts.svg" alt="" />
+            <img src="./images/logo-angular.svg" alt="" />
+            <img src="./images/logo-react.svg" alt="" />
+            <img src="./images/logo-astro.svg" alt="" />
+            <img src="./images/logo-next.svg" alt="" />
+            <img src="./images/logo-elm.svg" alt="" /> */}
+          </div>
         </div>
       </div>
     </div>
