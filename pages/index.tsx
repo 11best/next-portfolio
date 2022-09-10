@@ -38,7 +38,13 @@ const Home: NextPage = () => {
         <div id="section-project" className="mt-20">
           <h2 className="font-bold text-2xl">Projects</h2>
           <div className="flex justify-center items-center">
-            <ProjectCard tools={["Next.js", "Tailwindcss"]} />
+            <ProjectCard
+              url="https://cryptoknights.games/"
+              name="cryptoknights.games"
+              img="./images/ck-img.jpg"
+              detail="Landing page website of Cryptoknights game, Real-Time Fighting Game and Digital Collectible Card Game."
+              tools={["Next.js", "Tailwindcss"]}
+            />
           </div>
         </div>
         <div id="section-skill" className="mt-20">
