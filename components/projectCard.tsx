@@ -29,7 +29,7 @@ export default function ProjectCard(props: {
       <p className="mt-2">{props.detail}</p>
       <div className="mt-2 flex">
         {props.tools.map((tool) => (
-          <ToolBadge name={tool} />
+          <ToolBadge key={tool} name={tool} />
         ))}
       </div>
     </div>

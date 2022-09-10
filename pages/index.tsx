@@ -11,9 +11,9 @@ const Home: NextPage = () => {
           <h2 className="text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
           <p className="mt-20 tracking-wider indent-16">
             HiHi, Welcome to My Portfolio! My name is Asamaporn Bunmee but you
-            can call me Best. yep! Best is my nickname. I’m a front-end
+            can call me Best. yep! Best is my nickname. I&apos;m a front-end
             developer from Samut Prakan, Thailand. I love to learn about new
-            technologies. I'm the type that learns on my own by doing it.
+            technologies. I&apos;m the type that learns on my own by doing it.
           </p>
         </div>
         <div id="section-experience" className="mt-20">
