@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import ExperienceDetail from "../components/experienceDetail";
+import ProjectCard from "../components/projectCard";
 
 const Home: NextPage = () => {
   return (
@@ -36,6 +37,9 @@ const Home: NextPage = () => {
         </div>
         <div id="section-project" className="mt-20">
           <h2 className="font-bold text-2xl">Projects</h2>
+          <div className="flex justify-center items-center">
+            <ProjectCard tools={["Next.js", "Tailwindcss"]} />
+          </div>
         </div>
         <div id="section-skill" className="mt-20">
           <h2 className="font-bold text-2xl">All my skills</h2>
