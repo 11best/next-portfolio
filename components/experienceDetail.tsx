@@ -4,6 +4,7 @@ export default function ExperienceDetail(props: {
   companyName: string;
   time: string;
   role: string;
+  detail: string;
 }) {
   return (
     <>
@@ -39,7 +40,7 @@ export default function ExperienceDetail(props: {
         </div>
         <div>
           <span className="text-sm text-slate-400">{props.time}</span>
-          <p>develop the ui of product</p>
+          <p className="w-[600px]">{props.detail}</p>
         </div>
       </div>
       {props.end || (

@@ -23,14 +23,16 @@ const Home: NextPage = () => {
             <ExperienceDetail
               start
               companyName="Biggest Fan Productions"
-              time="Jan 2022 - present"
+              time="Jan 2022 - Now"
               role="Frontend developer"
+              detail="implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui implement ui "
             />
             <ExperienceDetail
               end
               companyName="Smart Finder"
               time="Jun 2021 - Dec 2021"
               role="Intern Frontend developer"
+              detail="Implementing hotel management website which consists of the room management page and kitchen ingredients management page with Angular"
             />
           </div>
         </div>
