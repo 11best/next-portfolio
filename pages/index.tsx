@@ -24,7 +24,7 @@ const Home: NextPage = () => {
               companyName="Biggest Fan Productions"
               time="Jan 2022 - Now"
               role="Frontend developer"
-              detail="Implemented the Front-end things of website related to live streaming biggestfan.live, landing page of cryptoknights.games and NFT Market place monet.market"
+              detail="Implemented the Front-end things of website related to live streaming biggestfan.live, landing page of cryptoknights.games and NFT Marketplace monet.market"
             />
             <ExperienceDetail
               end
@@ -37,17 +37,24 @@ const Home: NextPage = () => {
         </div>
         <div id="section-project" className="mt-20">
           <h2 className="font-bold text-2xl">Projects</h2>
-          <div className="flex justify-center items-center">
+          <div className="flex flex-col justify-center items-center">
             <ProjectCard
               url="https://cryptoknights.games/"
               name="cryptoknights.games"
               img="./images/ck-img.jpg"
               detail="Landing page website of Cryptoknights game, Real-Time Fighting Game and Digital Collectible Card Game."
-              tools={["Next.js", "Tailwindcss"]}
+              tools={["Next.js", "Typescript", "Tailwindcss"]}
+            />
+            <ProjectCard
+              url="https://monet.market/"
+              name="monet.market"
+              img="./images/monet-img.jpg"
+              detail="NFT Marketplace, which features NFT auctions that never existed before, such as Multi Auctions, Dutch Auctions, and Simple Fixed Price Sales."
+              tools={["Elm", "React", "Typescript", "Tailwindcss", "XState"]}
             />
           </div>
         </div>
-        <div id="section-skill" className="mt-20">
+        <div id="section-skill" className="mt-16">
           <h2 className="font-bold text-2xl">All my skills</h2>
         </div>
       </div>
