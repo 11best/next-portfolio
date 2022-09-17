@@ -8,7 +8,7 @@ export default function ProjectCard(props: {
   tools: Array<string>;
 }) {
   return (
-    <div className="w-[600px] my-12">
+    <div className="w-[370px] md:w-[600px] my-12">
       <img
         className="rounded-2xl border-solid border-4 border-orange-50 mb-2"
         src={props.img}

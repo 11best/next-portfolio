@@ -38,7 +38,7 @@ export default function ExperienceDetail(props: {
             <div className="bg-orange-200 w-[3px] h-full"></div>
           )}
         </div>
-        <div>
+        <div className="break-word">
           <span className="text-sm text-slate-400">{props.time}</span>
           <p className="w-[600px]">{props.detail}</p>
         </div>

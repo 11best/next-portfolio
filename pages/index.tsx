@@ -5,11 +5,11 @@ import SkillLogo from "../components/skillLogo";
 
 const Home: NextPage = () => {
   return (
-    <div className="pt-24 pb-10 flex flex-col justify-center items-center">
-      <div className="max-w-md lg:max-w-3xl text-slate-600 font-ibm">
+    <div className="pt-24 pb-10 px-4 flex flex-col justify-center items-center">
+      <div className="max-w-xs md:max-w-md lg:max-w-3xl text-slate-600 font-ibm">
         <div id="section-description" className="tracking-widest">
-          <h1 className="text-5xl">Asamaporn Bunmee</h1>
-          <h2 className="text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
+          <h1 className="text-3xl lg:text-5xl">Asamaporn Bunmee</h1>
+          <h2 className="text-md lg:text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
           <p className="mt-24 tracking-wider indent-16">
             HiHi, Welcome to My Portfolio! My name is Asamaporn Bunmee but you
             can call me Best. yep! Best is my nickname. I&apos;m a front-end
