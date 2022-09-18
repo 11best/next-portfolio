@@ -6,19 +6,18 @@ import SkillLogo from "../components/skillLogo";
 const Home: NextPage = () => {
   return (
     <div className="pt-24 pb-10 px-4 flex flex-col justify-center items-center">
-      <div className="max-w-xs md:max-w-md lg:max-w-3xl text-slate-600 font-ibm">
+      <div className="max-w-xs md:max-w-lg lg:max-w-3xl text-slate-600 font-ibm">
         <div id="section-description" className="tracking-widest">
           <h1 className="text-3xl lg:text-5xl">Asamaporn Bunmee</h1>
           <h2 className="text-md lg:text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
-          <p className="mt-24 tracking-wider indent-16">
+          <p className="mt-16 md:mt-24 text-sm md:text-base tracking-wider indent-16">
             HiHi, Welcome to My Portfolio! My name is Asamaporn Bunmee but you
             can call me Best. yep! Best is my nickname. I&apos;m a front-end
-            developer from Samut Prakan, Thailand. I love to learn about new
-            technologies. I&apos;m the type that learns on my own by doing it.
+            developer...
           </p>
         </div>
-        <div id="section-experience" className="mt-32">
-          <h2 className="font-bold text-2xl">Experience</h2>
+        <div id="section-experience" className="mt-16 md:mt-32">
+          <h2 className="font-bold text-lg lg:text-2xl">Experience</h2>
           <div className="mt-6">
             <ExperienceDetail
               start
