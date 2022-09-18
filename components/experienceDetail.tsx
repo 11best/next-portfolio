@@ -9,7 +9,7 @@ export default function ExperienceDetail(props: {
   return (
     <>
       <div className="flex">
-        <div className="w-[100px] flex justify-center items-center relative">
+        <div className="w-[50px] lg:w-[100px] flex justify-center items-center relative">
           <div className="bg-orange-200 rounded-full w-3 h-3"></div>
           {props.start && (
             <div className="bg-orange-200 w-[3px] h-[10px] absolute bottom-0"></div>
@@ -21,12 +21,12 @@ export default function ExperienceDetail(props: {
             <div className="bg-orange-200 w-[3px] h-[30px] absolute"></div>
           )}
         </div>
-        <div className="flex items-baseline">
-          <p className="text-lg font-semibold text-orange-400">
+        <div className="flex flex-col md:flex-row items-baseline">
+          <p className="text-sm lg:text-lg font-semibold text-orange-400">
             {props.companyName}
           </p>
-          <p className="ml-2 text-md font-semibold text-slate-400">
-            - {props.role}
+          <p className="md:ml-2 text-sm lg:text-md font-semibold text-slate-400">
+            <span className="hidden md:inline">- </span> {props.role}
           </p>
         </div>
       </div>
@@ -38,9 +38,11 @@ export default function ExperienceDetail(props: {
             <div className="bg-orange-200 w-[3px] h-full"></div>
           )}
         </div>
-        <div className="break-word">
+        <div className="">
           <span className="text-sm text-slate-400">{props.time}</span>
-          <p className="w-[600px]">{props.detail}</p>
+          <p className="break-word text-sm lg:text-base w-[270px] md:w-[462px] lg:w-[600px]">
+            {props.detail}
+          </p>
         </div>
       </div>
       {props.end || (

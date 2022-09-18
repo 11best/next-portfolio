@@ -10,13 +10,13 @@ const Home: NextPage = () => {
         <div id="section-description" className="tracking-widest">
           <h1 className="text-3xl lg:text-5xl">Asamaporn Bunmee</h1>
           <h2 className="text-md lg:text-2xl text-slate-400">{`<!-- Front-end developer -->`}</h2>
-          <p className="mt-16 md:mt-24 text-sm md:text-base tracking-wider indent-16">
+          <p className="mt-16 lg:mt-24 text-sm lg:text-base tracking-wider indent-16">
             HiHi, Welcome to My Portfolio! My name is Asamaporn Bunmee but you
             can call me Best. yep! Best is my nickname. I&apos;m a front-end
             developer...
           </p>
         </div>
-        <div id="section-experience" className="mt-16 md:mt-32">
+        <div id="section-experience" className="mt-16 lg:mt-32">
           <h2 className="font-bold text-lg lg:text-2xl">Experience</h2>
           <div className="mt-6">
             <ExperienceDetail
