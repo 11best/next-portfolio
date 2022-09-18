@@ -42,14 +42,14 @@ const Home: NextPage = () => {
             <ProjectCard
               url="https://cryptoknights.games/"
               name="cryptoknights.games"
-              img="./images/ck-img.jpg"
+              img="/images/ck-img.jpg"
               detail="Landing page website of Cryptoknights game, Real-Time Fighting Game and Digital Collectible Card Game."
               tools={["Next.js", "Typescript", "Tailwindcss"]}
             />
             <ProjectCard
               url="https://monet.market/"
               name="monet.market"
-              img="./images/monet-img.jpg"
+              img="/images/monet-img.jpg"
               detail="NFT Marketplace, which features NFT auctions that never existed before, such as Multi Auctions, Dutch Auctions, and Simple Fixed Price Sales."
               tools={[
                 "Elm",

@@ -8,7 +8,7 @@ export default function SkillLogo(props: { name: string; url: string }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={`./images/logo-${props.name}.svg`} alt={props.name} />
+          <img src={`/images/logo-${props.name}.svg`} alt={props.name} />
         </a>
       </div>
     </div>
