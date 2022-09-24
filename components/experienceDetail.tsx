@@ -12,10 +12,10 @@ export default function ExperienceDetail(props: {
         <div className="w-[50px] lg:w-[100px] flex justify-center items-center relative">
           <div className="bg-orange-200 rounded-full w-3 h-3"></div>
           {props.start && (
-            <div className="bg-orange-200 w-[3px] h-[10px] absolute bottom-0"></div>
+            <div className="bg-orange-200 w-[3px] h-[15px] absolute bottom-0"></div>
           )}
           {props.end && (
-            <div className="bg-orange-200 w-[3px] h-[10px] absolute top-0"></div>
+            <div className="bg-orange-200 w-[3px] h-[15px] absolute top-0"></div>
           )}
           {!props.start && !props.end && (
             <div className="bg-orange-200 w-[3px] h-[30px] absolute"></div>
@@ -46,7 +46,7 @@ export default function ExperienceDetail(props: {
         </div>
       </div>
       {props.end || (
-        <div className="w-[100px] h-[30px] flex justify-center items-center">
+        <div className="w-[50px] lg:w-[100px] h-[30px] flex justify-center items-center">
           <div className="bg-orange-200 w-[3px] h-8"></div>
         </div>
       )}

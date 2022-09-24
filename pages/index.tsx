@@ -36,7 +36,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div id="section-project" className="mt-36">
-          <h2 className="font-bold text-2xl">Projects</h2>
+          <h2 className="font-bold text-lg lg:text-2xl">Projects</h2>
           <div className="flex flex-col justify-center items-center">
             <ProjectCard
               url="https://cryptoknights.games/"
@@ -62,7 +62,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div id="section-skill" className="mt-28">
-          <h2 className="font-bold text-2xl">All my skills</h2>
+          <h2 className="font-bold text-lg lg:text-2xl">All my skills</h2>
           <div className="mt-4 h-28 flex justify-center items-center">
             <div className="flex gap-8 justify-around">
               <SkillLogo
