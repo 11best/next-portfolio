@@ -61,10 +61,10 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div id="section-skill" className="mt-28">
+        <div id="section-skill" className="mt-16 lg:mt-28">
           <h2 className="font-bold text-lg lg:text-2xl">All my skills</h2>
-          <div className="mt-4 h-28 flex justify-center items-center">
-            <div className="flex gap-8 justify-around">
+          <div className="md:mt-4 flex justify-center items-center">
+            <div className="mt-8 flex flex-wrap gap-8 justify-around">
               <SkillLogo
                 name="javascript"
                 url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
