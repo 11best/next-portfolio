@@ -35,7 +35,7 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div id="section-project" className="mt-36">
+        <div id="section-project" className="mt-20 lg:mt-32">
           <h2 className="font-bold text-lg lg:text-2xl">Projects</h2>
           <div className="flex flex-col justify-center items-center">
             <ProjectCard

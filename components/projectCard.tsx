@@ -8,7 +8,7 @@ export default function ProjectCard(props: {
   tools: Array<string>;
 }) {
   return (
-    <div className="w-[370px] md:w-[600px] my-12">
+    <div className="max-w-xs md:max-w-lg lg:max-w-2xl my-6 md:my-12">
       <img
         className="rounded-2xl border-solid border-4 border-orange-50 mb-2"
         src={props.img}
@@ -20,14 +20,14 @@ export default function ProjectCard(props: {
           title={props.name}
           target="_blank"
           rel="noopener noreferrer"
-          className="cursor-pointer text-orange-400 font-semibold text-lg group-hover:text-xl duration-500"
+          className="cursor-pointer text-orange-400 font-semibold text-sm lg:text-lg group-hover:text-xl duration-500"
         >
           {props.name}
           <div className="w-[40px] group-hover:w-full h-[2px] bg-orange-400 duration-700"></div>
         </a>
       </div>
-      <p className="mt-2">{props.detail}</p>
-      <div className="mt-2 flex">
+      <p className="mt-2 text-sm lg:text-base">{props.detail}</p>
+      <div className="flex flex-wrap">
         {props.tools.map((tool) => (
           <ToolBadge key={tool} name={tool} />
         ))}
